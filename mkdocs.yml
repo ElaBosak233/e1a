@@ -1,0 +1,28 @@
+site_name: e1a
+theme:
+  name: "material"
+  logo: https://e23.dev/fav.svg
+  favicon: https://e23.dev/fav.svg
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - header.autohide
+    - navigation.path
+    - navigation.top
+    - toc.follow
+  language: "zh"
+  palette:
+        primary: "teal"
+        accent: "teal"
+repo_url: https://github.com/ElaBosak233/e1a.git
+repo_name: ElaBosak233/e1a
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ElaBosak233
+copyright: >
+  Copyleft &copy; 2023 <a href="https://github.com/ElaBosak233" target="_blank">@ElaBosak233</a>
