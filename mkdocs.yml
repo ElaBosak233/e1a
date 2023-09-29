@@ -1,9 +1,13 @@
-site_name: e1a
+site_name: E1A
+site_author: ElaBosak233
 theme:
   name: "material"
-  logo: https://e23.dev/fav.svg
-  favicon: https://e23.dev/fav.svg
+  logo: assets/img/icon.svg
+  favicon: assets/img/icon.svg
+  custom_dir: overrides
   features:
+    - search.suggest
+    - search.highlight
     - navigation.instant
     - navigation.tabs
     - navigation.sections
@@ -19,6 +23,15 @@ theme:
         accent: "teal"
 repo_url: https://github.com/ElaBosak233/e1a.git
 repo_name: ElaBosak233/e1a
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - glightbox
+  - search
 extra:
   generator: false
   social:
