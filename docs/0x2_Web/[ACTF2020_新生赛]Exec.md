@@ -1,7 +1,10 @@
-# \[ACTF 2020 新生赛\] Exec
+---
+tags:
+  - BuuCTF
+  - 新手
+---
 
-![](https://img.shields.io/badge/%E9%A2%98%E7%9B%AE%E6%9D%A5%E6%BA%90-BuuCTF-blue?style=for-the-badge)
-![](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E8%AF%84%E4%BB%B7-%E8%8F%9C%E9%B8%9F-green?style=for-the-badge)
+# \[ACTF 2020 新生赛\] Exec
 
 ## 前置工作
 

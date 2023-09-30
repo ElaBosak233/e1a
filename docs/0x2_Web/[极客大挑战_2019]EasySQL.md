@@ -1,7 +1,10 @@
-# \[极客大挑战 2019\] EasySQL
+---
+tags:
+  - BuuCTF
+  - 简单
+---
 
-![](https://img.shields.io/badge/%E9%A2%98%E7%9B%AE%E6%9D%A5%E6%BA%90-BuuCTF-blue?style=for-the-badge)
-![](https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E8%AF%84%E4%BB%B7-%E4%B8%AD%E7%AD%89-orange?style=for-the-badge)
+# \[极客大挑战 2019\] EasySQL
 
 ## 前置工作
 
