@@ -2,6 +2,8 @@
 tags:
   - BuuCTF
   - 新手
+  - Linux
+  - 命令并行
 ---
 
 # \[ACTF 2020 新生赛\] Exec

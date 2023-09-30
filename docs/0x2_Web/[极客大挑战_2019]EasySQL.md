@@ -2,6 +2,7 @@
 tags:
   - BuuCTF
   - 简单
+  - SQL
 ---
 
 # \[极客大挑战 2019\] EasySQL
