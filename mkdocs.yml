@@ -35,7 +35,7 @@ theme:
         accent: "teal"
   font:
     text: Noto Sans SC
-    code: Jetbrains Mono
+    code: Roboto Mono
 extra_css:
   - assets/css/font.css
 repo_url: https://github.com/ElaBosak233/e1a.git
