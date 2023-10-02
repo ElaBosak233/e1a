@@ -7,7 +7,7 @@ tags:
   - 字符串解析
 ---
 
-# \[RoarCTF 2019\] Easy_Calc
+# \[RoarCTF 2019\] Easy Calc
 
 ## 前置工作
 
