@@ -1,3 +1,11 @@
+---
+tags:
+  - BuuCTF
+  - 简单
+  - PHP
+  - 备份
+---
+
 # \[ACTF2020 新生赛\] BackupFile
 
 ## 寻找 Backup 文件
@@ -29,6 +37,8 @@ else {
     echo "Try to find out source file!";
 }
 ```
+
+## 弱比较构建内容
 
 一目了然，他要我通过 GET 给他提供一个 `key`，这个 key 必须是数字，并且转为整数类型后，弱比较等于那一大串字符
 
