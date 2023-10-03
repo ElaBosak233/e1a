@@ -13,18 +13,19 @@ tags:
 进入靶机网页，看到如下代码（已在观感上优化），发现这是一道非常简单的绕过题
 
 ```php
-# I put something in F12 for you
+<?php
+// I put something in F12 for you
 include 'flag.php';
 $flag='MRCTF{xxxxxxxxxxxxxxxxxxxxxxxxx}';
-if(isset($_GET['gg'])&&isset($_GET['id'])) {
+if (isset($_GET['gg'])&&isset($_GET['id'])) {
     $id=$_GET['id'];
     $gg=$_GET['gg'];
     if (md5($id) === md5($gg) && $id !== $gg) {
         echo 'You got the first step';
-        if(isset($_POST['passwd'])) {
+        if (isset($_POST['passwd'])) {
             $passwd=$_POST['passwd'];
             if (!is_numeric($passwd)) {
-                 if($passwd==1234567) {
+                 if ($passwd==1234567) {
                      echo 'Good Job!';
                      highlight_file('flag.php');
                      die('By Retr_0');

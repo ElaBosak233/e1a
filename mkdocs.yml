@@ -43,6 +43,9 @@ markdown_extensions:
   - md_in_html
   - admonition
   - pymdownx.details
+  - pymdownx.highlight:
+      use_pygments: true
+      pygments_lang_class: true
   - pymdownx.superfences
 plugins:
   - glightbox
