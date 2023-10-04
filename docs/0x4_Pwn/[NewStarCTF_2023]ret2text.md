@@ -1,3 +1,9 @@
+---
+tags:
+  - BuuCTF
+  - 新手
+---
+
 # \[NewStarCTF 2023\] ret2text
 
 ## 前置工作
