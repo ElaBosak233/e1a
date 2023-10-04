@@ -2,7 +2,6 @@
 tags:
   - BuuCTF
   - 新手
-  - 数组溢出
 ---
 
 # ciscn_2019_n_8
