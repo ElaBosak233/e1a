@@ -1,7 +1,7 @@
 ---
 tags:
   - BuuCTF
-  - 简单
+  - 新手
 ---
 
 # rip
@@ -50,7 +50,7 @@ fun endp
 
 先用 0xF（数组的大小）+ 8（dup 的大小）个垃圾数据填饱栈，然后将函数 `fun()` 的地址打包发送过去（`pack(x, 64)` 与 `p64()` 作用相同），这种情况在本地是可以运行的，但是远程连接就会失效，就需要给 `fun_addr` +1 来取得堆栈平衡
 
-```
+```python
 from pwn import *
 
 r = remote("node4.buuoj.cn", 29901)
