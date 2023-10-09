@@ -47,6 +47,11 @@ markdown_extensions:
       use_pygments: true
       pygments_lang_class: true
   - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 plugins:
   - glightbox
   - search
