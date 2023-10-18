@@ -11,7 +11,7 @@ tags:
 
 下载附件，`.gif` 后缀的文件，暗示够明显了，用 `Stegsolve.jar` 打开，发现有一个特别的二维码
 
-![](https://z1.ax1x.com/2023/10/17/piPm6EQ.png)
+![](https://p.sda1.dev/13/a191a24e343b03b0fc51d633726c19b1/piPm6EQ.png)
 
 因为没有足够的芝士储备，我被困扰了很久（甚至用 PS 尝试修复成 QR Code），最后才知道这叫**汉信码**
 
