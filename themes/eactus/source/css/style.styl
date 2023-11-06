@@ -16,21 +16,21 @@ global-reset()
 
 /* For Chrome, Edge, and Safari */
 *::-webkit-scrollbar
-  width: 5px
+  width: 4px
   height: 4px
 
 *::-webkit-scrollbar-track
   background: transparent
 
 *::-webkit-scrollbar-thumb
-  background-color: $color-scrollbar
+  background-color: transparent
   border-radius: 6px
 
 *::-webkit-scrollbar-thumb:hover
-  background-color: darken($color-scrollbar, 20%)
+  background-color: darken($color-scrollbar, 1%)
 
 *::-webkit-scrollbar-thumb:active
-  background-color: darken($color-scrollbar, 30%)
+  background-color: darken($color-scrollbar, 10%)
 
 ::selection {
   background-color: #2bbc8a;
@@ -185,7 +185,7 @@ code
 
 .highlight
   overflow-x: auto
-  margin: 1rem 0
+  margin: .5rem 0
   padding: 15px 15px
   padding-bottom: 10px
   border-radius: 10px
