@@ -1,0 +1,55 @@
+#writing
+  margin-top: 1rem
+
+.post-list
+  padding: 0
+
+  .post-item
+    margin-bottom: 1rem
+    margin-left: 0
+    list-style-type: none
+
+    .post-item-ctx
+      display: flex
+
+    .meta
+      display: block
+      margin-right: 20px
+      min-width: 100px
+      color: $color-meta
+      font-size: 16px
+    
+    span
+      font-size: 16px
+
+.home-category
+  padding-top: .1rem
+  margin-right: .8rem
+  font-family: $font-family-mono
+  display: flex
+  justify-content: center
+  align-items: center
+  .category-link
+    color: $color-accent-1
+    text-decoration: none
+    background-image: none
+    &:hover
+      background-image: none
+
+@media screen and (min-width: 500px)
+  .post-list
+    .post-item
+      display: flex
+      margin-bottom: 10px
+
+      .meta
+        text-align: left
+
+.project-list
+  padding: 0
+  list-style: none
+
+  .project-item
+    margin-bottom: 5px
+    p
+      display: inline

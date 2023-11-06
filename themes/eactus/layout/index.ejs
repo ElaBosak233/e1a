@@ -1,0 +1,52 @@
+<section id="about" class="p-note">
+  <% if (config.description) { %>
+    <div style="text-align: center; color: grey; font-style: italic; font-size: large; margin-bottom: 10px;"><%- config.description %></div>
+  <% } %>
+  <div style="text-align: center;">
+    <img src="/img/RainbowDash.png" style="border-radius: 10px;" alt="" height="auto" width="300px" draggable="false" />
+  </div>
+</section>
+
+<section id="writing" class="unselectable">
+  <!-- <span class="h1"><a href="<%- url_for(theme.nav.articles) %>"><%= __('index.articles') %></a></span> -->
+  <% if (theme.tags_overview && site.tags.length) { %>
+  <!-- <span class="h2"><%= __('index.topics') %></span> -->
+  <span class="widget tagcloud">
+    <%- tagcloud(theme.tags_overview) %>
+  </span>
+  <!-- <span class="h2"><%= __('index.most_recent') %></span> -->
+  <% } %>
+  <ul class="post-list">
+    <% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
+    <% if (theme.posts_overview.show_all_posts) { %>
+      <% var show_posts = page.posts.sort(field_sort, 'desc') %>
+    <% } else { %>
+      <% var show_posts = site.posts.sort(field_sort, 'desc').limit(theme.posts_overview.post_count || 5) %>
+    <% } %>
+    <% show_posts.each(function(post, i){ %>
+      <li class="post-item">
+        <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
+        <div class="post-item-ctx">
+          <%- partial('_partial/post/category', { page: post, index: true }) %>
+          <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
+        </div>
+      </li>
+    <% }); %>
+  </ul>
+  <% if (theme.posts_overview.show_all_posts) { %>
+    <%- partial('_partial/pagination') %>
+  <% } %>
+</section>
+
+<% if (site.data.projects) { %>
+<section id="projects">
+  <span class="h1"><a href="<%- url_for(theme.projects_url) %>"><%= __('index.projects') %></a></span>
+  <ul class="project-list">
+    <% for(var obj in site.data.projects){ %>
+      <li class="project-item">
+        <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%- markdown(site.data.projects[obj].desc) %>
+      </li>
+    <% } %>
+  </ul>
+</section>
+<% } %>

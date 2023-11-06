@@ -1,0 +1,14 @@
+<% if (index) { %>
+    <% if (page.categories && page.categories.length) { %>
+        <div class="home-category">
+            <%- list_categories(page.categories, { show_count: false, depth: 1, style: false }) %>
+        </div>
+    <% } %>
+<% } else { %>
+    <% if (page.categories && page.categories.length) { %>
+        <div class="article-category">
+            <i class="fa-solid fa-layer-group"></i>
+            <%- list_categories(page.categories, { show_count: false, style: 'link', separator: ' › ' }) %>
+        </div>
+    <% } %>
+<% } %>

@@ -1,0 +1,52 @@
+colorscheme: day
+
+nav:
+  home: /
+  category: /categories/
+  tag: /tags/
+  articles: /archives/
+  search: /search/
+
+logo:
+  enabled: true
+  width: 50
+  height: 50
+  url: /img/Ella.png
+  gravatar: false
+  grayout: false
+
+favicon:
+  desktop:
+    url: /img/Ella_Round.png
+    gravatar: false
+  android:
+    url: /img/Ella_Round.png
+    gravatar: false
+  apple:
+    url: /img/Ella_Round.png
+    gravatar: false
+
+posts_overview:
+  show_all_posts: false
+  post_count: 8
+
+copyright:
+  start_year: 2023
+  end_year:
+
+busuanzi:
+  enable: true
+
+rss: atom.xml
+
+tags_overview: false
+
+cdn:
+  enable: true
+  jquery: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
+  clipboard: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js
+  font_awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+  justified_gallery_css: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
+  justified_gallery_js: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
+  LxgwWenKai: https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.css
+  JetBrainsMono: https://fastly.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css
