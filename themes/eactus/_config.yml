@@ -151,14 +151,6 @@ page_width: 48
 # Enable or disable the RSS feed.
 rss: false
 
-# Turn your web pages into graph objects (see http://ogp.me).
-open_graph:
-  fb_app_id:
-  fb_admins:
-  twitter_id:
-  google_plus:
-
-
 ##############################################################################
 # Plugins
 ##############################################################################
@@ -166,48 +158,6 @@ open_graph:
 # Enable MathJax support for Latex
 mathjax:
   enabled: false
-
-# Fill in your Disqus Comments Shortname to enable Disqus comments.
-disqus:
-  enabled: false
-  shortname: cactus-1
-
-# Fill in your Utterances data to enable Utterances comments
-utterances:
-  enabled: false
-  repo: owner/githubrepo
-  issue_term: pathname
-  label: Comment
-  theme: github-dark
-
-# Fill in your Google Analytics tracking ID to enable Google Analytics.
-google_analytics:
-  enabled: false
-  id: 
-
-# Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
-baidu_analytics:
-  enabled: false
-  id: 
-
-# Fill in your Cloudflare Analytics tracking ID to enable Cloudflare Analytics.
-cloudflare_analytics:
-  enabled: false
-  id: 
-
-# Fill in your Umami Analytics tracking ID to enable Umami Analytics.
-umami_analytics:
-  enabled: false
-  id: 
-  host: 
-  script_name: umami.js
-
-# Fill in you Gravatar email or hash if you want to use your gravatar as the
-# logo and/or favicons of you website.
-# To generate hash: `$ echo -n "name@email.com" | md5`.
-gravatar:
-  email: 
-  hash: 
 
 # loads libraries and styles from CDN instead or relying on local files
 cdn:

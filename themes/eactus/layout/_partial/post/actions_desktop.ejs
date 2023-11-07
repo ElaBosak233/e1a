@@ -1,16 +1,6 @@
 <div id="header-post">
-  <a id="menu-icon" href="#" aria-label="<%- __('icons.menu') %>"><i class="fa-solid fa-bars"></i></a>
-  <a id="menu-icon-tablet" href="#" aria-label="<%- __('icons.menu') %>"><i class="fa-solid fa-bars"></i></a>
-  <a id="top-icon-tablet" href="#" aria-label="<%- __('icons.top') %>" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa-solid fa-chevron-up fa-lg"></i></a>
   <span id="menu">
-    <span id="nav">
-      <ul>
-        <% for (var i in theme.nav) { %><!--
-        --><li><a href="<%- url_for(theme.nav[i]) %>"><%= __('nav.'+i).replace("nav.", "") %></a></li><!--
-      --><% } %>
-      </ul>
-    </span>
-    <br/>
+    <br />
     <span id="actions">
       <ul>
         <% if (page.prev) { %>
