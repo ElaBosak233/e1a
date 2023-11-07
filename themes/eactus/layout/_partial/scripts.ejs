@@ -92,10 +92,6 @@
         })();
         </script>
 <% } %>
-<!-- Cloudflare Analytics -->
-<% if (theme.cloudflare_analytics.enabled && theme.cloudflare_analytics.id){ %>
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "<%= theme.cloudflare_analytics.id %>"}'></script>
-<% } %>
 <!-- Disqus Comments -->
 <% if (page.comments && theme.disqus.enabled && theme.disqus.shortname){ %>
     <script type="text/javascript">
