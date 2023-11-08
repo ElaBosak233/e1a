@@ -9,6 +9,10 @@
   <% } %>
 <% } %>
 
+<% if (isCdnEnable('fancy_box_js')) {%>
+  <%- getCdnScript('fancy_box_js') %>
+<% } %>
+
 <!-- clipboard -->
 <% if (is_post()){ %>
   <% if (isCdnEnable('clipboard')) { %>
@@ -38,6 +42,7 @@
 <% } %>
 
 <%- js('js/main') %>
+<%- js('js/wrapImage') %>
 
 <!-- search -->
 <% if (config.search && (page.search || page.type === "search")){ %>

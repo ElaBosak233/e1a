@@ -4,6 +4,10 @@
   <% } %> 
 <% } %>
 
+<% if (isCdnEnable('fancy_box_css')) { %>
+  <%- getCdnLink('fancy_box_css', {preload: true}) %>
+<% } %>
+
 <% if (isCdnEnable('LxgwWenKai')) { %>
   <%- getCdnLink('LxgwWenKai') %>
 <% } %>

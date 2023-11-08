@@ -16,7 +16,7 @@ global-reset()
 
 /* For Chrome, Edge, and Safari */
 *::-webkit-scrollbar
-  width: 4px
+  width: 0px
   height: 4px
 
 *::-webkit-scrollbar-track
@@ -32,10 +32,9 @@ global-reset()
 *::-webkit-scrollbar-thumb:active
   background-color: darken($color-scrollbar, 10%)
 
-::selection {
+::selection
   background-color: #2bbc8a;
   color: white;
-}
 
 html
   margin: 0
