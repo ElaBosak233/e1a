@@ -5,7 +5,7 @@
 # Site
 title: 埃拉
 keywords: ['Development', 'Cyber Security', 'Pegasus']
-author: ElaBosak233
+author: 埃拉
 language: zh-CN
 timezone: ''
 
@@ -14,7 +14,7 @@ description: "好像衔着旗的飞马比你想象的要忙的多"
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://blog.e23.dev
-permalink: :year/:month/:day/:title/
+permalink: articles/:hash/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks

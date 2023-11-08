@@ -1,6 +1,6 @@
 ---
 title: BJDCTF2020 Cookie is so stable
-date: 2023-11-16
+date: 2023-11-06
 categories:
   - CTF
   - Web

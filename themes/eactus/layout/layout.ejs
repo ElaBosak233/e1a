@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html<%= config.language ? " lang=" + config.language : ""%>>
 <%- partial('_partial/head') %>
-<body class="max-width mx-auto px3 <%- theme.direction -%>">
+<body class="max-width mx-auto px3">
+    <% if (is_post()) { %>
+      <%- partial('_partial/post/actions_mobile') %>
+    <% } %>
     <% if (is_post()) { %>
       <%- partial('_partial/post/actions_desktop') %>
     <% } %>
@@ -10,9 +13,6 @@
           <%- partial('_partial/header') %>
         <% } %>
         <%- body %>
-        <% if (is_post()) { %>
-          <%- partial('_partial/post/actions_mobile') %>
-        <% } %>
         <%- partial('_partial/footer') %>
     </div>
     <%- partial('_partial/styles') %>
