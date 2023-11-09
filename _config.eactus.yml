@@ -34,6 +34,11 @@ copyright:
   start_year: 2023
   end_year:
 
+error_404:
+  enabled: true
+  title: "404 NOT FOUND"
+  description: ""
+
 busuanzi:
   enable: true
 
@@ -48,7 +53,5 @@ cdn:
   font_awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
   fancy_box_js: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js
   fancy_box_css: https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css
-  justified_gallery_css: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css
-  justified_gallery_js: https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js
   LxgwWenKai: https://cdnjs.cloudflare.com/ajax/libs/lxgw-wenkai-webfont/1.7.0/style.css
   JetBrainsMono: https://fastly.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css

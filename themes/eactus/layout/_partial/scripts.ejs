@@ -3,12 +3,6 @@
   <%- getCdnScript('jquery') %>
 <% } %>
 
-<% if (page.photos && page.photos.length) { %>
-  <% if (isCdnEnable('justified_gallery_js')) {%>
-    <%- getCdnScript('justified_gallery_js') %>
-  <% } %>
-<% } %>
-
 <% if (isCdnEnable('fancy_box_js')) {%>
   <%- getCdnScript('fancy_box_js') %>
 <% } %>

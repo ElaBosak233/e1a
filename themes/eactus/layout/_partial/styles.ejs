@@ -1,9 +1,3 @@
-<% if (page.photos && page.photos.length) { %>
-  <% if (isCdnEnable('justified_gallery_css')) { %>
-    <%- getCdnLink('justified_gallery_css', {preload: true}) %> 
-  <% } %> 
-<% } %>
-
 <% if (isCdnEnable('fancy_box_css')) { %>
   <%- getCdnLink('fancy_box_css', {preload: true}) %>
 <% } %>
