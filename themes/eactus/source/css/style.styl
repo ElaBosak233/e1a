@@ -75,10 +75,8 @@ body
     color: $color-text
     text-decoration: none
 
-    underline(5px, $color-text)
-
     &:hover
-      background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link)
+      underline(5px, $color-link)
 
   a.icon
     background: none
@@ -120,7 +118,6 @@ body
   max-width: $page-width
 
 @media (max-width: 480px)
-  // smaller margins at smaller screen widths
   .px3
     padding-right: 1rem
     padding-left: 1rem

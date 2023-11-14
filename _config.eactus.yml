@@ -44,6 +44,8 @@ busuanzi:
 
 rss: atom.xml
 
+page_width: 56
+
 tags_overview: false
 
 cdn:
